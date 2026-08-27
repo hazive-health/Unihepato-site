@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unihepato — Hepatologia e Gastroenterologia em Recife | Hospital Santa Joana</title>
+  <meta name="description" content="Unihepato: clínica de Hepatologia e Gastroenterologia no Hospital Santa Joana, Recife-PE. Agende sua consulta pelo WhatsApp.">
+
+  <!-- ===== OPEN GRAPH ===== -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Unihepato — Hepatologia e Gastroenterologia em Recife">
+  <meta property="og:description" content="Clínica de Hepatologia e Gastroenterologia no Hospital Santa Joana, Recife-PE. Agende sua consulta pelo WhatsApp.">
+  <meta property="og:image" content="assets/img/institucional/equipe-grupo.jpg">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- ===== FAVICON ===== -->
+  <link rel="icon" href="assets/img/favicon/favicon.ico">
+  <link rel="apple-touch-icon" href="assets/img/favicon/apple-touch-icon.png">
+
+  <!-- ===== FONTES ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- ===== CSS ===== -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="header-conteudo">
+      <a href="#hero" class="header-marca">
+        <img src="assets/img/logo/logo-cor-mais-forte.png" alt="Unihepato — Unidade de Hepatologia do Recife" class="header-logo">
+      </a>
+
+      <nav class="header-nav" id="header-nav" aria-label="Navegação principal">
+        <div class="header-nav-esquerda">
+          <a href="#sobre">A Clínica</a>
+          <a href="#especialidades">Especialidades</a>
+          <a href="#equipe">Equipe</a>
+        </div>
+        <div class="header-nav-direita">
+          <a href="#convenios">Convênios</a>
+          <a href="#localizacao">Estrutura</a>
+          <a href="#contato">Contato</a>
+        </div>
+      </nav>
+
+      <span class="btn-whatsapp btn-whatsapp--header btn-whatsapp--fantasma" aria-hidden="true" tabindex="-1">
+        <svg class="icone-whatsapp" viewBox="0 0 32 32" width="18" height="18" fill="currentColor" aria-hidden="true">
+          <path d="M16.001 3C9.373 3 4 8.373 4 15c0 2.386.7 4.61 1.902 6.484L4 29l7.716-1.876A11.94 11.94 0 0 0 16.001 27C22.628 27 28 21.627 28 15S22.628 3 16.001 3zm0 21.818a9.78 9.78 0 0 1-4.99-1.364l-.358-.213-4.582 1.114 1.223-4.465-.233-.367A9.77 9.77 0 0 1 5.727 15c0-5.665 4.61-10.273 10.274-10.273S26.273 9.335 26.273 15 21.665 24.818 16.001 24.818zm5.633-7.687c-.309-.155-1.827-.902-2.11-1.005-.283-.104-.489-.155-.696.155-.206.31-.798 1.005-.978 1.212-.18.207-.36.233-.669.078-.309-.155-1.304-.48-2.485-1.531-.918-.818-1.538-1.83-1.718-2.139-.18-.31-.02-.477.135-.63.139-.138.309-.36.464-.54.155-.18.206-.31.309-.516.103-.207.052-.388-.026-.543-.077-.155-.696-1.677-.954-2.297-.251-.603-.507-.522-.696-.532l-.593-.01c-.206 0-.542.077-.826.388-.283.31-1.082 1.057-1.082 2.578s1.108 2.99 1.262 3.196c.155.207 2.18 3.328 5.28 4.667.738.319 1.314.51 1.763.653.741.236 1.415.203 1.948.123.594-.089 1.827-.747 2.084-1.469.257-.722.257-1.34.18-1.469-.077-.129-.283-.207-.592-.362z"/>
+        </svg>
+        <span>Agendar</span>
+      </span>
+
+      <a href="https://wa.me/558991228855" class="btn-whatsapp btn-whatsapp--header" target="_blank" rel="noopener">
+        <svg class="icone-whatsapp" viewBox="0 0 32 32" width="18" height="18" fill="currentColor" aria-hidden="true">
+          <path d="M16.001 3C9.373 3 4 8.373 4 15c0 2.386.7 4.61 1.902 6.484L4 29l7.716-1.876A11.94 11.94 0 0 0 16.001 27C22.628 27 28 21.627 28 15S22.628 3 16.001 3zm0 21.818a9.78 9.78 0 0 1-4.99-1.364l-.358-.213-4.582 1.114 1.223-4.465-.233-.367A9.77 9.77 0 0 1 5.727 15c0-5.665 4.61-10.273 10.274-10.273S26.273 9.335 26.273 15 21.665 24.818 16.001 24.818zm5.633-7.687c-.309-.155-1.827-.902-2.11-1.005-.283-.104-.489-.155-.696.155-.206.31-.798 1.005-.978 1.212-.18.207-.36.233-.669.078-.309-.155-1.304-.48-2.485-1.531-.918-.818-1.538-1.83-1.718-2.139-.18-.31-.02-.477.135-.63.139-.138.309-.36.464-.54.155-.18.206-.31.309-.516.103-.207.052-.388-.026-.543-.077-.155-.696-1.677-.954-2.297-.251-.603-.507-.522-.696-.532l-.593-.01c-.206 0-.542.077-.826.388-.283.31-1.082 1.057-1.082 2.578s1.108 2.99 1.262 3.196c.155.207 2.18 3.328 5.28 4.667.738.319 1.314.51 1.763.653.741.236 1.415.203 1.948.123.594-.089 1.827-.747 2.084-1.469.257-.722.257-1.34.18-1.469-.077-.129-.283-.207-.592-.362z"/>
+        </svg>
+        <span>Agendar</span>
+      </a>
+
+      <button type="button" class="header-hamburguer" id="header-hamburguer" aria-expanded="false" aria-controls="header-nav" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero">
+      <div class="hero-conteudo">
+        <p class="hero-eyebrow">Hepatologia &amp; Gastroenterologia</p>
+        <h1 class="hero-titulo">Cuidado especializado do fígado, da prevenção ao acompanhamento</h1>
+        <p class="hero-subtitulo">A Unihepato reúne quatro hepatologistas em Recife, com ampla experiência clínica para cuidar da sua saúde hepática em todas as etapas.</p>
+        <div class="hero-ctas">
+          <a href="https://wa.me/558991228855" class="btn-whatsapp" target="_blank" rel="noopener">
+            <svg class="icone-whatsapp" viewBox="0 0 32 32" width="20" height="20" fill="currentColor" aria-hidden="true">
+              <path d="M16.001 3C9.373 3 4 8.373 4 15c0 2.386.7 4.61 1.902 6.484L4 29l7.716-1.876A11.94 11.94 0 0 0 16.001 27C22.628 27 28 21.627 28 15S22.628 3 16.001 3zm0 21.818a9.78 9.78 0 0 1-4.99-1.364l-.358-.213-4.582 1.114 1.223-4.465-.233-.367A9.77 9.77 0 0 1 5.727 15c0-5.665 4.61-10.273 10.274-10.273S26.273 9.335 26.273 15 21.665 24.818 16.001 24.818zm5.633-7.687c-.309-.155-1.827-.902-2.11-1.005-.283-.104-.489-.155-.696.155-.206.31-.798 1.005-.978 1.212-.18.207-.36.233-.669.078-.309-.155-1.304-.48-2.485-1.531-.918-.818-1.538-1.83-1.718-2.139-.18-.31-.02-.477.135-.63.139-.138.309-.36.464-.54.155-.18.206-.31.309-.516.103-.207.052-.388-.026-.543-.077-.155-.696-1.677-.954-2.297-.251-.603-.507-.522-.696-.532l-.593-.01c-.206 0-.542.077-.826.388-.283.31-1.082 1.057-1.082 2.578s1.108 2.99 1.262 3.196c.155.207 2.18 3.328 5.28 4.667.738.319 1.314.51 1.763.653.741.236 1.415.203 1.948.123.594-.089 1.827-.747 2.084-1.469.257-.722.257-1.34.18-1.469-.077-.129-.283-.207-.592-.362z"/>
+            </svg>
+            <span>Agende sua consulta</span>
+          </a>
+          <a href="#equipe" class="btn-ghost">Conheça nossa equipe</a>
+        </div>
+      </div>
+      <div class="hero-imagem">
+        <picture>
+          <source srcset="assets/img/institucional/equipe-com-fundo-1.webp" type="image/webp">
+          <img src="assets/img/institucional/equipe-com-fundo-1.jpeg" alt="Equipe médica da Unihepato" class="hero-imagem-foto">
+        </picture>
+      </div>
+    </section>
+
+    <!-- ===== NÚMEROS ===== -->
+    <section class="numeros">
+      <div class="numeros-grid" data-stagger-grupo>
+        <div class="numero-item reveal">
+          <p class="numero-valor" data-numero="4">4</p>
+          <p class="numero-legenda">Especialistas hepatologistas</p>
+        </div>
+        <div class="numero-item reveal">
+          <p class="numero-valor" data-numero="2">2</p>
+          <p class="numero-legenda">Especialidades médicas</p>
+        </div>
+        <div class="numero-item reveal">
+          <p class="numero-valor" data-numero="21">21</p>
+          <p class="numero-legenda">Convênios aceitos</p>
+        </div>
+        <div class="numero-item reveal">
+          <p class="numero-valor-texto">Hospital Santa Joana</p>
+          <p class="numero-legenda">Unidade de atendimento</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SOBRE A CLÍNICA ===== -->
+    <section id="sobre">
+      <div class="sobre-conteudo">
+        <div class="sobre-texto reveal">
+          <p class="secao-eyebrow">Quem somos</p>
+          <h2 class="secao-titulo secao-titulo--esquerda">Cuidado especializado, com olhar individualizado</h2>
+          <p class="sobre-paragrafo">A Unihepato é uma unidade especializada em Hepatologia e Gastroenterologia, dedicada ao cuidado da saúde do fígado e do sistema digestivo.</p>
+          <p class="sobre-paragrafo">Nossa equipe reúne profissionais com experiência clínica e uma abordagem centrada em cada paciente, desde a prevenção e investigação até o acompanhamento e tratamento.</p>
+          <p class="sobre-paragrafo">Em um ambiente acolhedor e preparado para oferecer uma experiência de cuidado diferenciada, buscamos unir conhecimento médico, atenção e proximidade em cada atendimento.</p>
+
+          <div class="sobre-diferenciais" data-stagger-grupo>
+            <div class="diferencial-item reveal">
+              <span class="diferencial-numero">01</span>
+              <h3 class="diferencial-titulo">Atendimento individualizado</h3>
+              <p class="diferencial-descricao">Cada paciente é acompanhado de acordo com suas necessidades.</p>
+            </div>
+            <div class="diferencial-item reveal">
+              <span class="diferencial-numero">02</span>
+              <h3 class="diferencial-titulo">Equipe especializada</h3>
+              <p class="diferencial-descricao">Profissionais dedicados à Hepatologia e Gastroenterologia.</p>
+            </div>
+            <div class="diferencial-item reveal">
+              <span class="diferencial-numero">03</span>
+              <h3 class="diferencial-titulo">Cuidado contínuo</h3>
+              <p class="diferencial-descricao">Da prevenção ao diagnóstico, tratamento e acompanhamento.</p>
+            </div>
+          </div>
+        </div>
+        <div class="sobre-galeria">
+          <img src="assets/img/institucional/fachada.jpg" alt="Fachada do Hospital Santa Joana, onde fica a Unihepato" class="sobre-imagem">
+          <img src="assets/img/institucional/recepcao.jpg" alt="Recepção da Unihepato" class="sobre-imagem">
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ESPECIALIDADES ===== -->
+    <section id="especialidades">
+      <div class="secao-cabecalho reveal">
+        <p class="secao-eyebrow">Áreas de atuação</p>
+        <h2 class="secao-titulo">Especialidades</h2>
+      </div>
+      <div class="especialidades-grid" data-stagger-grupo>
+        <div class="especialidade-card reveal">
+          <div class="especialidade-cabecalho">
+            <span class="especialidade-icone" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+            </span>
+            <h3 class="especialidade-titulo">Hepatologia</h3>
+          </div>
+          <p class="especialidade-descricao">Cuidado especializado com a saúde do fígado.</p>
+          <ul class="especialidade-lista">
+            <li>Esteatose hepática</li>
+            <li>Hepatites</li>
+            <li>Cirrose</li>
+            <li>Doenças hepáticas</li>
+            <li>Acompanhamento especializado</li>
+          </ul>
+          <a href="#equipe" class="especialidade-link">Conheça <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="especialidade-card reveal">
+          <div class="especialidade-cabecalho">
+            <span class="especialidade-icone" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12c1.5-3 3-3 4.5 0s3 3 4.5 0 3-3 4.5 0 3 3 4.5 0"/></svg>
+            </span>
+            <h3 class="especialidade-titulo">Gastroenterologia</h3>
+          </div>
+          <p class="especialidade-descricao">Cuidado com a saúde do sistema digestivo.</p>
+          <ul class="especialidade-lista">
+            <li>Refluxo</li>
+            <li>Gastrite</li>
+            <li>Doenças intestinais</li>
+            <li>Doenças do estômago</li>
+            <li>Distúrbios digestivos</li>
+          </ul>
+          <a href="#equipe" class="especialidade-link">Conheça <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EQUIPE MÉDICA ===== -->
+    <section id="equipe">
+      <div class="secao-cabecalho reveal">
+        <p class="secao-eyebrow">Nossa equipe médica</p>
+        <h2 class="secao-titulo">Especialistas que cuidam de você</h2>
+        <p class="secao-descricao">Uma equipe especializada em Hepatologia e Gastroenterologia, preparada para acompanhar você em cada etapa do cuidado.</p>
+      </div>
+
+      <div class="equipe-carrossel" id="equipe-carrossel">
+        <div class="equipe-trilho" data-stagger-grupo>
+          <article class="medico-card reveal">
+            <a href="medicos/tiberio-medeiros.html" class="medico-foto">
+              <img src="assets/img/equipe/dr-tiberio.jpg" alt="Dr. Tibério Medeiros, hepatologista e gastroenterologista da Unihepato">
+              <span class="medico-foto-overlay" aria-hidden="true">Conheça o profissional →</span>
+            </a>
+            <div class="medico-info">
+              <h3 class="medico-nome">Dr. Tibério Medeiros</h3>
+              <p class="medico-especialidade">Hepatologia<br>Gastroenterologia</p>
+              <p class="medico-crm">CRM 14331</p>
+              <a href="medicos/tiberio-medeiros.html" class="medico-link">Conheça o profissional <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="medico-card reveal">
+            <a href="medicos/lilian-maia.html" class="medico-foto">
+              <img src="assets/img/equipe/dra-lilian.jpg" alt="Dra. Lilian Maia, hepatologista e gastroenterologista da Unihepato">
+              <span class="medico-foto-overlay" aria-hidden="true">Conheça o profissional →</span>
+            </a>
+            <div class="medico-info">
+              <h3 class="medico-nome">Dra. Lilian Maia</h3>
+              <p class="medico-especialidade">Hepatologia<br>Gastroenterologia</p>
+              <p class="medico-crm">CRM 18181</p>
+              <a href="medicos/lilian-maia.html" class="medico-link">Conheça o profissional <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="medico-card reveal">
+            <a href="medicos/rebecca-dantas.html" class="medico-foto">
+              <img src="assets/img/equipe/dra-rebecca.jpg" alt="Dra. Rebecca Dantas, hepatologista da Unihepato">
+              <span class="medico-foto-overlay" aria-hidden="true">Conheça o profissional →</span>
+            </a>
+            <div class="medico-info">
+              <h3 class="medico-nome">Dra. Rebecca Dantas</h3>
+              <p class="medico-especialidade">Hepatologia</p>
+              <p class="medico-crm">CRM 22741</p>
+              <a href="medicos/rebecca-dantas.html" class="medico-link">Conheça o profissional <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="medico-card reveal">
+            <a href="medicos/carolina-reis.html" class="medico-foto">
+              <img src="assets/img/equipe/dra-carolina.jpg" alt="Dra. Carolina Reis, hepatologista da Unihepato">
+              <span class="medico-foto-overlay" aria-hidden="true">Conheça o profissional →</span>
+            </a>
+            <div class="medico-info">
+              <h3 class="medico-nome">Dra. Carolina Reis</h3>
+              <p class="medico-especialidade">Hepatologia</p>
+              <p class="medico-crm">CRM 20276</p>
+              <a href="medicos/carolina-reis.html" class="medico-link">Conheça o profissional <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+        </div>
+
+        <button type="button" class="equipe-seta equipe-seta--anterior" aria-label="Médico anterior">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <button type="button" class="equipe-seta equipe-seta--proximo" aria-label="Próximo médico">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+
+        <div class="equipe-dots" id="equipe-dots"></div>
+      </div>
+    </section>
+
+    <!-- ===== CONVÊNIOS E VALORES ===== -->
+    <section id="convenios">
+      <div class="secao-cabecalho reveal">
+        <p class="secao-eyebrow">Convênios</p>
+        <h2 class="secao-titulo">Atendimento para você e para sua necessidade</h2>
+        <p class="secao-descricao">Confira os convênios e modalidades de atendimento disponíveis na Unihepato.</p>
+      </div>
+
+      <div class="convenios-lista reveal">
+        <span class="convenio-chip">Amil</span>
+        <span class="convenio-chip">Bradesco Saúde</span>
+        <span class="convenio-chip">Camed</span>
+        <span class="convenio-chip">Cassi</span>
+        <span class="convenio-chip">Excelsior</span>
+        <span class="convenio-chip">Fisco</span>
+        <span class="convenio-chip">Funcef</span>
+        <span class="convenio-chip">Geap</span>
+        <span class="convenio-chip">Luminar</span>
+        <span class="convenio-chip">Medial Saúde</span>
+        <span class="convenio-chip">Marinha</span>
+        <span class="convenio-chip">Mediservice</span>
+        <span class="convenio-chip">MedSenior</span>
+        <span class="convenio-chip">Petrobras</span>
+        <span class="convenio-chip">Proasa</span>
+        <span class="convenio-chip">Rede Mais Saúde</span>
+        <span class="convenio-chip">Select</span>
+        <span class="convenio-chip">TRT 6</span>
+        <span class="convenio-chip">Adufepe</span>
+        <span class="convenio-chip">Amepe</span>
+        <span class="convenio-chip">Assefas</span>
+      </div>
+
+      <div class="convenios-cta reveal">
+        <p class="convenios-cta-texto">Seu convênio não está na lista? Também oferecemos atendimento por consulta particular.</p>
+        <a href="https://wa.me/558991228855" class="btn-whatsapp" target="_blank" rel="noopener">
+          <svg class="icone-whatsapp" viewBox="0 0 32 32" width="20" height="20" fill="currentColor" aria-hidden="true">
+            <path d="M16.001 3C9.373 3 4 8.373 4 15c0 2.386.7 4.61 1.902 6.484L4 29l7.716-1.876A11.94 11.94 0 0 0 16.001 27C22.628 27 28 21.627 28 15S22.628 3 16.001 3zm0 21.818a9.78 9.78 0 0 1-4.99-1.364l-.358-.213-4.582 1.114 1.223-4.465-.233-.367A9.77 9.77 0 0 1 5.727 15c0-5.665 4.61-10.273 10.274-10.273S26.273 9.335 26.273 15 21.665 24.818 16.001 24.818zm5.633-7.687c-.309-.155-1.827-.902-2.11-1.005-.283-.104-.489-.155-.696.155-.206.31-.798 1.005-.978 1.212-.18.207-.36.233-.669.078-.309-.155-1.304-.48-2.485-1.531-.918-.818-1.538-1.83-1.718-2.139-.18-.31-.02-.477.135-.63.139-.138.309-.36.464-.54.155-.18.206-.31.309-.516.103-.207.052-.388-.026-.543-.077-.155-.696-1.677-.954-2.297-.251-.603-.507-.522-.696-.532l-.593-.01c-.206 0-.542.077-.826.388-.283.31-1.082 1.057-1.082 2.578s1.108 2.99 1.262 3.196c.155.207 2.18 3.328 5.28 4.667.738.319 1.314.51 1.763.653.741.236 1.415.203 1.948.123.594-.089 1.827-.747 2.084-1.469.257-.722.257-1.34.18-1.469-.077-.129-.283-.207-.592-.362z"/>
+          </svg>
+          <span>Agende sua consulta</span>
+        </a>
+      </div>
+
+      <div class="valor-card reveal">
+        <div class="valor-card-principal">
+          <p class="valor-label">Consulta particular</p>
+          <p class="valor-obs">Valor único para os 4 médicos</p>
+        </div>
+        <ul class="valor-detalhes">
+          <li>Formas de pagamento: Pix ou espécie</li>
+          <li>Retorno gratuito em até 30 dias da consulta original</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== LOCALIZAÇÃO ===== -->
+    <section id="localizacao">
+      <div class="secao-cabecalho reveal">
+        <p class="secao-eyebrow">Encontre a Unihepato</p>
+        <h2 class="secao-titulo">Estamos em Recife</h2>
+        <p class="secao-descricao">Estamos prontos para receber você em um espaço de atendimento especializado.</p>
+      </div>
+
+      <div class="localizacao-conteudo">
+        <div class="localizacao-info reveal">
+          <p class="localizacao-nome">Unihepato — Unidade de Hepatologia do Recife</p>
+
+          <div class="localizacao-linha">
+            <svg class="localizacao-icone" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <address class="localizacao-endereco">
+              R. Joaquim Nabuco, 200 — Graças, Recife-PE<br>
+              <span class="localizacao-endereco-sub">Clínicas Especializadas I, térreo — Hospital Santa Joana</span>
+            </address>
+          </div>
+
+          <div class="localizacao-linha">
+            <svg class="localizacao-icone" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.902.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.908.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:+5581991228855" class="localizacao-telefone">(81) 99122-8855</a>
+          </div>
+
+          <div class="localizacao-horario">
+            <div class="localizacao-linha">
+              <svg class="localizacao-icone" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <p class="localizacao-horario-titulo">Horário de atendimento</p>
+            </div>
+            <ul class="localizacao-horario-lista">
+              <li><span>Segunda a quinta</span><span>07h às 17h</span></li>
+              <li><span>Sexta-feira</span><span>07h às 16h</span></li>
+              <li><span>Sábado e domingo</span><span>Fechado</span></li>
+            </ul>
+          </div>
+
+          <ul class="localizacao-detalhes">
+            <li>Ao chegar, vá direto à recepção da clínica — não é necessário passar pela recepção geral do hospital</li>
+            <li>Estacionamento pago, sem manobrista</li>
+            <li>Serviço de maqueiro disponível: o acompanhante deve solicitar na recepção geral com documento do paciente</li>
+          </ul>
+
+          <div class="localizacao-ctas">
+            <a href="https://www.google.com/maps?q=R.+Joaquim+Nabuco,+200+-+Gra%C3%A7as,+Recife+-+PE,+52011-906" target="_blank" rel="noopener" class="btn-ghost">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Como chegar</span>
+            </a>
+            <a href="https://wa.me/558991228855" target="_blank" rel="noopener" class="btn-whatsapp">
+              <svg class="icone-whatsapp" viewBox="0 0 32 32" width="20" height="20" fill="currentColor" aria-hidden="true">
+                <path d="M16.001 3C9.373 3 4 8.373 4 15c0 2.386.7 4.61 1.902 6.484L4 29l7.716-1.876A11.94 11.94 0 0 0 16.001 27C22.628 27 28 21.627 28 15S22.628 3 16.001 3zm0 21.818a9.78 9.78 0 0 1-4.99-1.364l-.358-.213-4.582 1.114 1.223-4.465-.233-.367A9.77 9.77 0 0 1 5.727 15c0-5.665 4.61-10.273 10.274-10.273S26.273 9.335 26.273 15 21.665 24.818 16.001 24.818zm5.633-7.687c-.309-.155-1.827-.902-2.11-1.005-.283-.104-.489-.155-.696.155-.206.31-.798 1.005-.978 1.212-.18.207-.36.233-.669.078-.309-.155-1.304-.48-2.485-1.531-.918-.818-1.538-1.83-1.718-2.139-.18-.31-.02-.477.135-.63.139-.138.309-.36.464-.54.155-.18.206-.31.309-.516.103-.207.052-.388-.026-.543-.077-.155-.696-1.677-.954-2.297-.251-.603-.507-.522-.696-.532l-.593-.01c-.206 0-.542.077-.826.388-.283.31-1.082 1.057-1.082 2.578s1.108 2.99 1.262 3.196c.155.207 2.18 3.328 5.28 4.667.738.319 1.314.51 1.763.653.741.236 1.415.203 1.948.123.594-.089 1.827-.747 2.084-1.469.257-.722.257-1.34.18-1.469-.077-.129-.283-.207-.592-.362z"/>
+              </svg>
+              <span>Agendar consulta</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="localizacao-mapa reveal">
+          <iframe
+            src="https://www.google.com/maps?q=R.+Joaquim+Nabuco,+200+-+Gra%C3%A7as,+Recife+-+PE,+52011-906&output=embed"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Mapa de localização da Unihepato no Hospital Santa Joana">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section id="faq">
+      <div class="secao-cabecalho reveal">
+        <p class="secao-eyebrow">Dúvidas frequentes</p>
+        <h2 class="secao-titulo">Perguntas que a gente mais recebe</h2>
+      </div>
+
+      <div class="faq-lista">
+        <div class="faq-item">
+          <button type="button" class="faq-pergunta" aria-expanded="false">
+            <span>Como funciona o retorno?</span>
+            <span class="faq-icone" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-resposta">
+            <p>O retorno é gratuito em até 30 dias da consulta original.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-pergunta" aria-expanded="false">
+            <span>A clínica emite nota fiscal?</span>
+            <span class="faq-icone" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-resposta">
+            <p>Sim, para atendimento particular.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-pergunta" aria-expanded="false">
+            <span>Preciso levar algum documento?</span>
+            <span class="faq-icone" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-resposta">
+            <p>Documento com foto. Se for atendimento por convênio, leve também a carteirinha.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-pergunta" aria-expanded="false">
+            <span>Como funciona o estacionamento?</span>
+            <span class="faq-icone" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-resposta">
+            <p>O estacionamento é pago e não conta com serviço de manobrista.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-pergunta" aria-expanded="false">
+            <span>Existe serviço de maqueiro?</span>
+            <span class="faq-icone" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-resposta">
+            <p>Sim. O acompanhante deve solicitar o serviço na recepção geral do hospital, com o documento do paciente.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== REDES SOCIAIS ===== -->
+    <section id="redes-sociais">
+      <div class="secao-cabecalho reveal">
+        <p class="secao-eyebrow">Redes sociais</p>
+        <h2 class="secao-titulo">Acompanhe a Unihepato</h2>
+      </div>
+
+      <div class="redes-lista">
+        <a href="https://www.instagram.com/unihepato/" target="_blank" rel="noopener" class="rede-link" aria-label="Instagram da Unihepato">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="2" width="20" height="20" rx="5"/>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+          </svg>
+          <span>Instagram</span>
+        </a>
+        <a href="https://www.facebook.com/unihepato/" target="_blank" rel="noopener" class="rede-link" aria-label="Facebook da Unihepato">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+          </svg>
+          <span>Facebook</span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="contato">
+    <div class="footer-conteudo">
+      <div class="footer-coluna">
+        <img src="assets/img/logo/logo-unihepato.png" alt="Unihepato" class="footer-logo">
+        <p class="footer-nome">Unihepato — Unidade de Hepatologia do Recife</p>
+        <address class="footer-endereco">R. Joaquim Nabuco, 200 — Graças, Recife-PE, 52011-906</address>
+      </div>
+
+      <div class="footer-coluna">
+        <p class="footer-titulo">Contato</p>
+        <p><a href="tel:+558130032613">(81) 3003-2613</a></p>
+        <p><a href="https://wa.me/558991228855" target="_blank" rel="noopener">(81) 99122-8855 (WhatsApp)</a></p>
+        <p><a href="mailto:unihepatohsj@gmail.com">unihepatohsj@gmail.com</a></p>
+      </div>
+
+      <div class="footer-coluna">
+        <p class="footer-titulo">Institucional</p>
+        <p><a href="#politica-privacidade">Política de Privacidade</a></p>
+      </div>
+    </div>
+
+    <div class="footer-base">
+      <p>&copy; <span id="ano-atual"></span> Unihepato. Todos os direitos reservados.</p>
+      <p>Tecnologia por Hazive Health</p>
+    </div>
+
+    <!-- ===== POLÍTICA DE PRIVACIDADE (placeholder simples, LGPD) ===== -->
+    <div id="politica-privacidade" class="footer-politica">
+      <h3>Política de Privacidade</h3>
+      <p>Este site é institucional e não coleta dados pessoais dos visitantes por meio de formulários. O contato com a Unihepato é feito diretamente pelo WhatsApp, telefone ou e-mail informados nesta página, e qualquer dado compartilhado nesses canais é tratado com confidencialidade, conforme a Lei Geral de Proteção de Dados (LGPD).</p>
+    </div>
+  </footer>
+
+  <!-- ===== BOTÃO WHATSAPP FLUTUANTE ===== -->
+  <a href="https://wa.me/558991228855" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 32 32" width="28" height="28" fill="currentColor" aria-hidden="true">
+      <path d="M16.001 3C9.373 3 4 8.373 4 15c0 2.386.7 4.61 1.902 6.484L4 29l7.716-1.876A11.94 11.94 0 0 0 16.001 27C22.628 27 28 21.627 28 15S22.628 3 16.001 3zm0 21.818a9.78 9.78 0 0 1-4.99-1.364l-.358-.213-4.582 1.114 1.223-4.465-.233-.367A9.77 9.77 0 0 1 5.727 15c0-5.665 4.61-10.273 10.274-10.273S26.273 9.335 26.273 15 21.665 24.818 16.001 24.818zm5.633-7.687c-.309-.155-1.827-.902-2.11-1.005-.283-.104-.489-.155-.696.155-.206.31-.798 1.005-.978 1.212-.18.207-.36.233-.669.078-.309-.155-1.304-.48-2.485-1.531-.918-.818-1.538-1.83-1.718-2.139-.18-.31-.02-.477.135-.63.139-.138.309-.36.464-.54.155-.18.206-.31.309-.516.103-.207.052-.388-.026-.543-.077-.155-.696-1.677-.954-2.297-.251-.603-.507-.522-.696-.532l-.593-.01c-.206 0-.542.077-.826.388-.283.31-1.082 1.057-1.082 2.578s1.108 2.99 1.262 3.196c.155.207 2.18 3.328 5.28 4.667.738.319 1.314.51 1.763.653.741.236 1.415.203 1.948.123.594-.089 1.827-.747 2.084-1.469.257-.722.257-1.34.18-1.469-.077-.129-.283-.207-.592-.362z"/>
+    </svg>
+  </a>
+
+  <!-- ===== JS ===== -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
